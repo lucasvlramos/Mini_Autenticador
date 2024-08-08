@@ -12,7 +12,6 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['HTTP_AUTH_USERNAME'] = 'username'
 app.config['HTTP_AUTH_PASSWORD'] = 'password'
 
-# Inicialização do SQLAlchemy
 db = SQLAlchemy(app)
 
 class Cartao(db.Model):
